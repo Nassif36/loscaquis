@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Caquis | Cabañas en el delta del tigre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f69e951070.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header class="site_header">
+        <div class="barra contenedor">
+            <div class="logo">
+                <h1>Los Caquis</h1>
+                <button>
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="nav">
+                <li>
+                    <a href="#inicio">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="#cabañas">
+                        Cabañas
+                    </a>
+                </li>
+                <li>
+                    <a href="#acerca">
+                        nosotros
+                    </a>
+                </li>
+                <li>
+                    <a href="#contacto">
+                        contacto
+                    </a>
+                </li>
+            </div>
+        </div>
+        <div class="header_flex contenedor" id="inicio">
+            <a href="https://maps.app.goo.gl/VSSGLMgmwoteVtPz7"><i class="fas fa-map-marked-alt"></i>Aca estamos</a>
+            <h2>una experiencia <br> única</h2>
+
+            <div class="header_btn">
+                <a class="btn_transparent" href="#contacto">
+                    Contactanos
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="section_about">
+        <article class="about_flex" id="acerca">
+            <div class="about_item fade-in from-left">
+                <div class="about_text ">
+                    <h3>¿Quienes Somos?</h3>
+
+                    <p>Cabañas los Caquis es un predio atendido por su dueño las 24hs. Estamos ubicados a 70 minutos en
+                        lancha colectivo o 20 minutos en lancha taxi.
+                        No somos un complejo, tenemos tres cabañas separadas 25M cada una con tres muelles privados. El
+                        concepto de cabañas los Caquis es solo para parejas o dos personas adultas.</p>
+                    <button class="btn_about">
+                        mas info
+                    </button>
+                </div>
+
+            </div>
+            <div class="about_item fade-in from-right">
+                <div class="about_img">
+                    <img src="./Cabañas/Predio/about.jpg" alt="">
+
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="section_frase">
+        <div class="frase_flex">
+            <h3>
+                si buscas un espacio tranquilo y libre de contaminación este es tu lugar!
+            </h3>
+        </div>
+    </section>
+
+    <section class="section_services " id="cabañas">
+        <span>Alquiler</span>
+        <h3>Cabañas & Servicios</h3>
+
+        <article class="services_flex fade-in from-down">
+            <div class="service">
+                <img src="./Cabañas/Cabaña 1/portada.jpg" alt="">
+                <div class="service_text">
+                    <p>Cabaña 1</p>
+                    <a href="cabaña1.html">Ver mas</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="./Cabañas/Cabaña 2/portada.jpg" alt="">
+                <div class="service_text">
+                    <p>Cabaña 2</p>
+                    <a href="cabaña2.html">Ver mas</a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="./Cabañas/Cabaña 3/portada.jpg" alt="">
+                <div class="service_text">
+                    <p>Cabaña 3</p>
+                    <a href="cabaña3.html">Ver mas</a>
+                </div>
+            </div>
+        </article>
+        <p class="manejo">Nos manejamos con reserva, es un compromiso de ambas partes y por consiguiente no se devuelve.
+            Para cancelarla o
+            cambiar la fecha debe hacerse con 10 días de anticipación.</p>
+        <div class="equipamento">
+            <p>
+               <i class="fas fa-check"></i> Termotanque eléctrico 100L
+            </p>
+            <p><i class="fas fa-check"></i> Cocina con horno, Heladera con freezer.</p>
+            <p><i class="fas fa-check"></i>WIFI</p>
+            <p><i class="fas fa-check"></i>Aire Acondicionado y ventilador de techo</p>
+            <p><i class="fas fa-check"></i>TV HD (Canales de aire, no Smart)</p>
+            <p><i class="fas fa-check"></i>Parrilla y mesa de campo </p>
+            <p><i class="fas fa-check"></i>Vajilla completa</p>
+
+            <p><i class="fas fa-check"></i>Somier con ropa de cama y toallas blancas</p>
+
+            <p><i class="fas fa-check"></i> Tenemos un canal privado para amarrar embarcaciones propias</p>
+            <p><i class="fas fa-times"></i>No se aceptan mascotas, no se permiten visitas.</p>
+            <p><i class="fas fa-times"></i> No se permite el uso de equipos de música</p>
+            
+            </div>
+          
+    </section>
+
+    <footer class="site_footer">
+        <div class="footer_flex" id="form">
+            <form action="#" class="form_flex" " onsubmit=" return false" ; method="post">
+                <div class="campo">
+                    <label for="nombre"></label>
+                    <input type="text" name="nombre" placeholder="Tú Nombre" id="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="apellido"></label>
+                    <input type="text" name="apellido" placeholder="Tú Apellido" id="apellido" required>
+                </div>
+                <div class="campo">
+                    <label for="mensaje"></label>
+                    <textarea name="mensaje" placeholder="Su consulta no molesta" id="mensaje" required></textarea>
+                </div>
+                <button class="btn_form" id="formEnviar" type="submit" value="Enviar">
+                    Enviar
+                </button>
+            </form>
+            <div id="errorForm">
+
+            </div>
+            <div class="nav_footer">
+                <a href="#inicio">
+                    Inicio
+                </a>
+                <a href="#cabaañas">
+                    cabañas
+                </a>
+                <a href="#acerca">
+                    nosotros
+                </a>
+                <a href="#acerca">
+                    contacto
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>
