@@ -11,7 +11,7 @@
          var enviarForm = document.querySelector('#formEnviar');
          var errorForm = document.querySelector('#errorForm');
 
-         var numero = 541133497050;
+         var numero = 541162677030;
          var nombre = document.querySelector('#nombre').value
          var apellido = document.querySelector("#apellido").value;
          var mensaje = document.querySelector('#mensaje').value;
